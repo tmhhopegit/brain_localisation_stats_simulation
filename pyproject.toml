@@ -1,0 +1,17 @@
+[project]
+name = "permthresh"
+version = "1.0.0"
+description = "How far do permutation-thresholded lesion-deficit maps stray from the truly critical region? (Python rewrite of RunPermThreshAnalysis.m)"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "pandas", "matplotlib"]
+
+[project.optional-dependencies]
+images = ["nibabel"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["permthresh"]

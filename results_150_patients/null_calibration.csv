@@ -1,0 +1,4 @@
+statistic,datasets,alpha,familywise_error_rate,voxelwise_false_positive_fraction
+pm3,100,0.05,0.03,0.02693745970341715
+partial_r,100,0.05,0.02,0.04173436492585429
+ridge,100,0.05,0.02,0.036434558349451966

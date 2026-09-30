@@ -1,0 +1,42 @@
+{
+  "patients": 150,
+  "voxels_tested": 4653,
+  "regions": [
+    "L14",
+    "L15",
+    "L17",
+    "L20",
+    "L22",
+    "L23",
+    "L24",
+    "L28",
+    "L29",
+    "R48",
+    "R57"
+  ],
+  "n_perm": 1000,
+  "example_region": "L23",
+  "calibration": [
+    {
+      "statistic": "pm3",
+      "datasets": 100,
+      "alpha": 0.05,
+      "familywise_error_rate": 0.03,
+      "voxelwise_false_positive_fraction": 0.02693745970341715
+    },
+    {
+      "statistic": "partial_r",
+      "datasets": 100,
+      "alpha": 0.05,
+      "familywise_error_rate": 0.02,
+      "voxelwise_false_positive_fraction": 0.04173436492585429
+    },
+    {
+      "statistic": "ridge",
+      "datasets": 100,
+      "alpha": 0.05,
+      "familywise_error_rate": 0.02,
+      "voxelwise_false_positive_fraction": 0.036434558349451966
+    }
+  ]
+}
